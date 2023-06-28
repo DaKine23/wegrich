@@ -1,0 +1,44 @@
+# Main Title
+main:
+  header:
+    title : "Garten- und Landschaftsbau Wegrich" # Title Text
+    description : "Ihr professioneller Partner für individuelle Traumgärten" # Title Desc
+    button:
+      text: "Erfahre mehr!" # Button Text
+      url: "#about" # Button URL
+
+# About
+about:
+  title: "Über uns"
+  desc: | 
+    Seit unserer Gründung im Jahr 1995 sind wir stolz darauf, als Familienunternehmen in zweiter Generation zu agieren. Unter der Leitung von Michael Wegrich, einem staatlich geprüften Techniker mit umfangreicher Expertise im Bereich Garten- und Landschaftsbau, haben wir uns kontinuierlich weiterentwickelt und unseren Kunden erstklassige Leistungen geboten.
+  desc2: |
+    Als erfahrener Profi in der Branche verfügt Michael Wegrich über ein tiefgreifendes Verständnis für die verschiedenen Aspekte des Garten- und Landschaftsbaus. Mit seinem Fachwissen und seinem Engagement stellt er sicher, dass unsere Projekte mit höchster Qualität und Präzision ausgeführt werden.
+  desc3: |  
+    Durch die langjährige Erfahrung und das fundierte Know-how unseres Teams haben wir uns einen ausgezeichneten Ruf erworben. Wir sind stets bestrebt, innovative Konzepte und Lösungen anzubieten, die den aktuellen Trends und Anforderungen gerecht werden. Unsere Kunden können sich darauf verlassen, dass wir ihre Visionen und Ideen in einzigartige und beeindruckende Außenanlagen umsetzen.
+  desc4: |
+    Kontinuierliche Weiterbildung und der Einsatz modernster Techniken und Materialien sind für uns selbstverständlich. Wir bleiben stets auf dem neuesten Stand der Entwicklungen in unserer Branche, um unseren Kunden die bestmöglichen Lösungen zu bieten. Unser Ziel ist es, durch kreatives Design, fachmännische Ausführung und erstklassigen Kundenservice beeindruckende Ergebnisse zu erzielen.
+  desc5: |
+    Garten- und Landschaftsbau Wegrich steht für Vertrauen, Zuverlässigkeit und professionelle Arbeit. Wir sind stolz darauf, mit Leidenschaft und Engagement maßgeschneiderte Lösungen zu liefern, die die Erwartungen unserer Kunden übertreffen.
+  desc6: |
+    Wir freuen uns darauf, Ihnen bei der Gestaltung Ihres Traumgartens zur Seite zu stehen und Ihre persönlichen Vorstellungen in die Realität umzusetzen. Kontaktieren Sie uns noch heute, um einen Termin zu vereinbaren und weitere Informationen zu unseren Dienstleistungen zu erhalten.
+  button:
+    enable: true
+    text: "Portfolioprojekte"
+    url: "#projects"
+  image: "assets/img/blaetter.png"
+
+projects:
+  card1:
+    title: "Pools"
+    text: "Tauchen Sie ein und lassen Sie den Alltagsstress hinter sich. Schaffen Sie Ihre persönliche Oase der Entspannung mit einem kleinen Pool, der Ihnen angenehme Erfrischung an heißen Tagen bietet."
+    img: "assets/img/pool.jpg"
+  card2:
+    title: "Gartenteich"
+    text: "Genießen Sie die natürliche Schönheit eines Gartenteichs in Ihrem eigenen Garten. Schaffen Sie eine Oase der Ruhe und Harmonie."
+    img: "assets/img/vorgarten.jpg"
+  card3:
+    title: "Vorgärten"
+    text: "Ein schöner Vorgarten ist mehr als nur ein visueller Blickfang - er ist eine einladende Begrüßung für Gäste und ein Ort, an dem Sie sich jeden Tag willkommen fühlen."
+    img: "assets/img/vorgarten2.jpg"
+  

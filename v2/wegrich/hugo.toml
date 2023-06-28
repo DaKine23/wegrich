@@ -1,0 +1,45 @@
+baseURL = 'http://wegrich.de/'
+languageCode = 'de-de'
+title = 'Garten- und Landschaftsbau Wegrich '
+theme = 'graysx-hugo'
+
+## Site Settings
+[params]
+logo = "assets/img/logo.webp"
+favicon = "assets/favicon.png"
+
+# Info
+address = "Schulstraße 2, 99947 Bad Langensalza"
+email = "info@wegrich.de"
+phone = "03603/815518"
+mobile = "0173/3850531"
+
+# Socials
+
+twitter = "#"
+facebook = "#"
+github = "#"
+maps = "https://goo.gl/maps/2dfAcH1D32JpLAfr7"
+
+## Menu Items
+[menu]
+  [[menu.main]]
+  name = "Über uns"
+  URL = "#about"
+  weight = 1
+
+  [[menu.main]]
+  name = "Projekte"
+  URL = "#projects"
+  weight = 2
+
+  [[menu.main]]
+  name = "Kontakt"
+  URL = "#contact"
+  weight = 3
+
+
+# Credits
+
+# This theme is forked from: https://github.com/startbootstrap/startbootstrap-grayscale
+# This theme is forked by: https://github.com/akatiggerx04
