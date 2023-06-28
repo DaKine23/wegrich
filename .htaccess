@@ -1,0 +1,27 @@
+# Standard .htaccess-Datei
+
+# Verhindere den Zugriff auf die .htaccess-Datei selbst
+<Files .htaccess>
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Aktiviere das Rewrite Engine-Modul
+RewriteEngine On
+
+# Weiterleitung auf HTTPS erzwingen
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Ausnahme für favicon.ico
+RewriteRule ^favicon.ico$ - [L]
+
+# Leite alle Anfragen auf index.php weiter
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.html/$1 [L]
+
+# www umleitung
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^wegrich\\.de$ [NC]
+RewriteRule ^(.*)$ https://wegrich.de/$1 [L,R=301]
